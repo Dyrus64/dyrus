@@ -1,2 +1,6 @@
 # dyrus
 Dyrus Base MAXI in READMI
+language: ruby
+rvm: 2.4.1
+before_script: gem install awesome_bot
+script: awesome_bot README.md --allow-redirect
